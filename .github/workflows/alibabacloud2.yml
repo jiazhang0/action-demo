@@ -30,14 +30,8 @@ env:
   NAMESPACE: shelter-images
   IMAGE: test
   TAG: ${{ github.sha }}
-  ACK_CLUSTER_ID: 67849096104504767-c5cec5aa005f242daa16906ad21ac2fa9
+  ACK_CLUSTER_ID: c5cec5aa005f242daa16906ad21ac2fa9 
   ACK_DEPLOYMENT_NAME: nginx-deployment
-
-  ACR_EE_REGISTRY: myregistry.cn-hangzhou.cr.aliyuncs.com
-  ACR_EE_INSTANCE_ID: instanceID
-  ACR_EE_NAMESPACE: namespace
-  ACR_EE_IMAGE: repo
-  ACR_EE_TAG: ${{ github.sha }}
 
 jobs:
   build:
